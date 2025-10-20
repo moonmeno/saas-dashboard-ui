@@ -1,0 +1,36 @@
+[
+  {
+    "id": "yt-thread-1",
+    "platform": "youtube",
+    "author": "StudioOps",
+    "excerpt": "Loved the breakdown of the Shorts workflow!",
+    "publishedAt": "2024-04-12T12:15:00.000Z",
+    "status": "published",
+    "replies": [
+      {
+        "id": "yt-reply-1",
+        "author": "Creator Lab",
+        "message": "Thanks for tuning in!",
+        "publishedAt": "2024-04-12T12:18:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "yt-thread-2",
+    "platform": "youtube",
+    "author": "SignalBoost",
+    "excerpt": "This seems spammy, please moderate.",
+    "publishedAt": "2024-04-11T08:21:00.000Z",
+    "status": "likely_spam",
+    "replies": []
+  },
+  {
+    "id": "yt-thread-3",
+    "platform": "youtube",
+    "author": "GrowthGal",
+    "excerpt": "Could you share the template you mentioned?",
+    "publishedAt": "2024-04-10T18:45:00.000Z",
+    "status": "held",
+    "replies": []
+  }
+]

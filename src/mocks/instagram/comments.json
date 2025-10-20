@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ig-thread-1",
+    "platform": "instagram",
+    "author": "CreatorCollective",
+    "excerpt": "This reel is 🔥!",
+    "publishedAt": "2024-04-12T16:42:00.000Z",
+    "status": "published",
+    "replies": [
+      {
+        "id": "ig-reply-1",
+        "author": "Creator Lab",
+        "message": "Appreciate the love!",
+        "publishedAt": "2024-04-12T16:50:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "ig-thread-2",
+    "platform": "instagram",
+    "author": "GrowthOps",
+    "excerpt": "This was reported by several accounts.",
+    "publishedAt": "2024-04-11T11:00:00.000Z",
+    "status": "held",
+    "replies": []
+  },
+  {
+    "id": "ig-thread-3",
+    "platform": "instagram",
+    "author": "SignalSpark",
+    "excerpt": "Please remove, looks like spam.",
+    "publishedAt": "2024-04-10T09:20:00.000Z",
+    "status": "likely_spam",
+    "replies": []
+  }
+]
