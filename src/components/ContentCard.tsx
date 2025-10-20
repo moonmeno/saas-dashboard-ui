@@ -122,7 +122,9 @@ const ContentCard = ({
         ) : null}
         {platform === "instagram" ? (
           {/* 인스타그램은 그라데이션 포커스를 하단 라인으로 표현합니다. */}
-          <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-[var(--brand)] to-transparent opacity-80" />
+          <div
+            className={`absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-[var(--brand)] to-transparent opacity-80`}
+          />
         ) : null}
       </div>
       <div className="flex flex-1 flex-col gap-4 p-5">
