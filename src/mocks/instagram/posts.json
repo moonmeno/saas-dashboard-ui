@@ -1,0 +1,71 @@
+[
+  {
+    "id": "ig-1",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
+    "title": "Creator retreat day one highlights",
+    "ownerName": "Creator Lab",
+    "publishedAt": "2024-04-12T15:30:00.000Z",
+    "viewCount": 82341,
+    "likeCount": 12432,
+    "commentCount": 542,
+    "flaggedCount": 12,
+    "category": "Reels",
+    "badges": [
+      "Reel",
+      "Team"
+    ],
+    "moderation": "held",
+    "platform": "instagram"
+  },
+  {
+    "id": "ig-2",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
+    "title": "Behind-the-scenes carousel",
+    "ownerName": "Creator Lab",
+    "publishedAt": "2024-04-11T09:00:00.000Z",
+    "viewCount": 45231,
+    "likeCount": 9876,
+    "commentCount": 321,
+    "flaggedCount": 4,
+    "category": "Carousel",
+    "badges": [
+      "Team"
+    ],
+    "moderation": "published",
+    "platform": "instagram"
+  },
+  {
+    "id": "ig-3",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80",
+    "title": "Creator spotlight interview",
+    "ownerName": "Creator Lab",
+    "publishedAt": "2024-04-09T18:00:00.000Z",
+    "viewCount": 67890,
+    "likeCount": 11023,
+    "commentCount": 489,
+    "flaggedCount": 6,
+    "category": "Spotlight",
+    "badges": [
+      "Community"
+    ],
+    "moderation": "published",
+    "platform": "instagram"
+  },
+  {
+    "id": "ig-4",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80",
+    "title": "Program announcements",
+    "ownerName": "Creator Lab",
+    "publishedAt": "2024-04-08T12:30:00.000Z",
+    "viewCount": 38214,
+    "likeCount": 7634,
+    "commentCount": 254,
+    "flaggedCount": 8,
+    "category": "Announcement",
+    "badges": [
+      "News"
+    ],
+    "moderation": "held",
+    "platform": "instagram"
+  }
+]
