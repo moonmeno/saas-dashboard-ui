@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { ContentCardProps, ModerationStatus } from "../types";
 import { formatCount, timeAgo } from "../lib/format";
 import { cn } from "../lib/cn";
-import Badge from "./ui/badge";
+import Badge, { type BadgeVariant } from "./ui/badge";
 import Button from "./ui/button";
 import {
   ArrowUpRightIcon,
@@ -13,7 +13,7 @@ import {
 } from "./icons";
 
 // 콘텐츠 카드 상단에서 모더레이션 상태에 따라 뱃지 색상을 바꾸기 위한 매핑입니다.
-const moderationColor: Record<ModerationStatus, string> = {
+const moderationColor: Record<ModerationStatus, BadgeVariant> = {
   published: "success",
   held: "warning",
   likely_spam: "danger",
@@ -114,17 +114,15 @@ const ContentCard = ({
             </Badge>
           ) : null}
         </div>
+        {/* 유튜브는 비디오 길이 표시 칩을 제공하여 플랫폼의 특징을 살립니다. */}
         {platform === "youtube" ? (
-          {/* 유튜브는 비디오 길이 표시 칩을 제공하여 플랫폼의 특징을 살립니다. */}
           <div className="absolute bottom-4 right-4 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-white">
             16:34
           </div>
         ) : null}
+        {/* 인스타그램은 그라데이션 포커스를 하단 라인으로 표현합니다. */}
         {platform === "instagram" ? (
-          {/* 인스타그램은 그라데이션 포커스를 하단 라인으로 표현합니다. */}
-          <div
-            className={`absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-[var(--brand)] to-transparent opacity-80`}
-          />
+          <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-[var(--brand)] to-transparent opacity-80" />
         ) : null}
       </div>
       <div className="flex flex-1 flex-col gap-4 p-5">

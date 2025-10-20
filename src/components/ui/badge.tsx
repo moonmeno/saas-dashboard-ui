@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { cn } from "../../lib/cn";
 
-type BadgeVariant = "default" | "success" | "warning" | "danger" | "muted";
+export type BadgeVariant = "default" | "success" | "warning" | "danger" | "muted";
 
 const badgeClasses: Record<BadgeVariant, string> = {
   default:
